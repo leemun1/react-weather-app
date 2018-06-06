@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css?family=Raleway");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Raleway;
+}
+
+html {
+  font-size: 67.5%;
+}
+
+body {
+  background: white;
+  background: linear-gradient(60deg, #606c88, #d7dde8);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-app {
+  min-width: 40rem;
+  border-radius: 8px;
+  background: #323744;
+  width: 100%;
+  padding: 2rem;
+  color: #edf2f4;
+  box-shadow: 0px 5px 40px #7a7a7a;
+
+  & > * {
+    font-size: 2rem;
+  }
+}
+.icon {
+  font-size: 4rem;
+  float: right;
+}
+.temperature {
+  font-size: 4rem;
+}
+
+.condition {
+  text-transform: capitalize;
+}
+
+.day,
+.date {
+  text-align: right;
+}
